@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>techguy16&#x27;s blog</title>
+    <link href="https://techguy16.github.io/blog/feed.xml" rel="self" />
+    <link href="https://techguy16.github.io/blog" />
+    <updated>2025-03-16T18:34:08+13:00</updated>
+    <author>
+        <name>techguy16</name>
+    </author>
+    <id>https://techguy16.github.io/blog</id>
+
+    <entry>
+        <title>Microsoft Edge Source Code</title>
+        <author>
+            <name>techguy16</name>
+        </author>
+        <link href="https://techguy16.github.io/blog/microsoft-edge-source-code.html"/>
+        <id>https://techguy16.github.io/blog/microsoft-edge-source-code.html</id>
+
+        <updated>2025-03-16T11:09:17+13:00</updated>
+            <summary>
+                <![CDATA[
+                    You thought Microsoft Edge was proprietary, didn't you. Well, because of Panasonic (of all things), we have the source code for Microsoft Edge. You read that title right! Panasonic (of all things) shared the Microsoft Edge source code on their website. The page with the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>You thought Microsoft Edge was proprietary, didn't you. Well, because of Panasonic (of all things), we have the source code for Microsoft Edge.</p>
+<p>You read that title right! Panasonic (of all things) shared the Microsoft Edge source code on their website. The page with the downloads is <a href="https://docs.connect.panasonic.com/oss/pc/index.html">here</a> and the downloads are below:</p>
+<table style="border-collapse: collapse; width: 100%; height: 626.062px;" border="1">
+<tbody>
+<tr style="height: 48.5625px;">
+<td style="width: 33.0913%; height: 48.5625px;"><strong>Version</strong></td>
+<td style="width: 66.9087%; height: 48.5625px;"><strong>Download</strong></td>
+</tr>
+<tr style="height: 75.5625px;">
+<td style="width: 33.0913%; height: 75.5625px;">80.0.361.61</td>
+<td style="width: 66.9087%; height: 75.5625px;"><a href="https://contents.oss-src-distribution.panasonic.com/oss/pc/80.0.361.61_sc.zip">https://contents.oss-src-distribution.panasonic.com/oss/pc/80.0.361.61_sc.zip</a></td>
+</tr>
+<tr style="height: 75.5625px;">
+<td style="width: 33.0913%; height: 75.5625px;">84.0.522.75</td>
+<td style="width: 66.9087%; height: 75.5625px;"><a href="https://contents.oss-src-distribution.panasonic.com/oss/pc/84.0.522.75_sc.zip">https://contents.oss-src-distribution.panasonic.com/oss/pc/84.0.522.75_sc.zip</a></td>
+</tr>
+<tr style="height: 75.5625px;">
+<td style="width: 33.0913%; height: 75.5625px;">89.0.774.68</td>
+<td style="width: 66.9087%; height: 75.5625px;"><a href="https://contents.oss-src-distribution.panasonic.com/oss/pc/89.0.774.68_sc.zip">https://contents.oss-src-distribution.panasonic.com/oss/pc/89.0.774.68_sc.zip</a></td>
+</tr>
+<tr style="height: 75.5625px;">
+<td style="width: 33.0913%; height: 75.5625px;">90.0.818.66</td>
+<td style="width: 66.9087%; height: 75.5625px;"><a href="https://contents.oss-src-distribution.panasonic.com/oss/pc/90.0.818.66_sc.zip">https://contents.oss-src-distribution.panasonic.com/oss/pc/90.0.818.66_sc.zip</a></td>
+</tr>
+<tr style="height: 75.5625px;">
+<td style="width: 33.0913%; height: 75.5625px;">92.0.902.67</td>
+<td style="width: 66.9087%; height: 75.5625px;"><a href="https://contents.oss-src-distribution.panasonic.com/oss/pc/92.0.902.67_sc.zip">https://contents.oss-src-distribution.panasonic.com/oss/pc/92.0.902.67_sc.zip</a></td>
+</tr>
+<tr style="height: 75.5625px;">
+<td style="width: 33.0913%; height: 75.5625px;">100.0.1185.36</td>
+<td style="width: 66.9087%; height: 75.5625px;"><a href="https://contents.oss-src-distribution.panasonic.com/oss/pc/100.0.1185.36_sc.zip">https://contents.oss-src-distribution.panasonic.com/oss/pc/100.0.1185.36_sc.zip</a></td>
+</tr>
+<tr style="height: 75.5625px;">
+<td style="width: 33.0913%; height: 75.5625px;">106.0.1370.47</td>
+<td style="width: 66.9087%; height: 75.5625px;"><a href="https://contents.oss-src-distribution.panasonic.com/oss/pc/106.0.1370.47_sc.zip">https://contents.oss-src-distribution.panasonic.com/oss/pc/106.0.1370.47_sc.zip</a></td>
+</tr>
+<tr style="height: 48.5625px;">
+<td style="width: 33.0913%; height: 48.5625px;">122.0.2365.106</td>
+<td style="width: 66.9087%; height: 48.5625px;"><a href="https://contents.oss-src-distribution.panasonic.com/oss/pc/122.0.2365.106_sc.zip">https://contents.oss-src-distribution.panasonic.com/oss/pc/122.0.2365.106_sc.zip</a></td>
+</tr>
+</tbody>
+</table>
+<p>Hilltraud (on the OpenXP Discord server) also discovered that Microsoft provides partial source for Edge on their <a href="https://thirdpartysource.microsoft.com/" title="sus microsoft link" target="_blank" rel="noopener noreferrer">Third Party Source</a> site. This source could be merged with the more complete source provided by Panasonic to compile Microsoft Edge.</p>
+<figure class="post__image"><img loading="lazy"  src="https://techguy16.github.io/blog/media/posts/1/Screenshot-from-2025-03-16-18-27-30.png" alt="Microsoft Third Party Source site" width="1091" height="651" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://techguy16.github.io/blog/media/posts/1/responsive/Screenshot-from-2025-03-16-18-27-30-xs.png 640w ,https://techguy16.github.io/blog/media/posts/1/responsive/Screenshot-from-2025-03-16-18-27-30-sm.png 768w ,https://techguy16.github.io/blog/media/posts/1/responsive/Screenshot-from-2025-03-16-18-27-30-md.png 1024w ,https://techguy16.github.io/blog/media/posts/1/responsive/Screenshot-from-2025-03-16-18-27-30-lg.png 1366w ,https://techguy16.github.io/blog/media/posts/1/responsive/Screenshot-from-2025-03-16-18-27-30-xl.png 1600w ,https://techguy16.github.io/blog/media/posts/1/responsive/Screenshot-from-2025-03-16-18-27-30-2xl.png 1920w"><figcaption>Microsoft Third Party Source site</figcaption></figure>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+</feed>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://techguy16.github.io/blog/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://techguy16.github.io/blog/</loc>
+</url>
+<url>
+<loc>https://techguy16.github.io/blog/donate.html</loc>
+<lastmod>2025-03-16T18:38:39+13:00</lastmod>
+</url>
+<url>
+<loc>https://techguy16.github.io/blog/microsoft-edge-source-code.html</loc>
+<lastmod>2025-03-16T18:34:08+13:00</lastmod>
+<image:image>
+<image:loc>https://techguy16.github.io/blog/media/posts/1/Screenshot-from-2025-03-16-18-27-30.png</image:loc>
+<image:title><![CDATA[Microsoft Third Party Source site]]></image:title>
+</image:image>
+</url>
+</urlset>
