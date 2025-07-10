@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://techguy16.github.io/blog/bring-back-manifest-v2-extensions-to-chrome.html",
+            "url": "https://techguy16.github.io/blog/bring-back-manifest-v2-extensions-to-chrome.html",
+            "title": "Bring back Manifest V2 extensions to Chrome!",
+            "summary": "In Chrome 140 (and possibly 139), Manifest V2 extensions are \"no longer\" supported. This is not the case, as the browser still internally supports these extensions. Through some digging in the Chromium source, we discovered that there is actually a command-line flag to re-enable these&hellip;",
+            "content_html": "<p>In Chrome 140 (and possibly 139), Manifest V2 extensions are \"no longer\" supported. This is not the case, as the browser still internally supports these extensions. Through some digging in the Chromium source, we discovered that there is actually a command-line flag to re-enable these extensions. </p>\n<hr>\n<p>When launching Chrome, append the following flag to the executable:</p>\n<pre class=\"language-bash\"><code>--disable-features=ExtensionManifestV2Disabled,ExtensionManifestV2Unsupported,ExtensionManifestV2DeprecationWarning,ExtensionsManifestV3Only</code></pre>\n<p>This flag re-enables Manifest V2 extensions and also hides the deprecation warning in <a href=\"chrome://extensions\" target=\"_blank\" rel=\"noopener noreferrer\">chrome://extensions</a></p>\n<hr>\n<p>This was discovered in the <em><a href=\"https://source.chromium.org/chromium/chromium/src/+/main:chrome/test/chromedriver/test/run_py_tests.py;l=385?q=manifestv2disabled&amp;ss=chromium%2Fchromium%2Fsrc\" target=\"_blank\" rel=\"noopener noreferrer\">run_py_tests.py</a></em> file in the Chromium source, which has a test that disables Google's absurd decision. The <em><a href=\"https://source.chromium.org/chromium/chromium/src/+/main:extensions/common/extension_features.cc;l=96?q=ExtensionManifestV2Disabled&amp;ss=chromium%2Fchromium%2Fsrc\" target=\"_blank\" rel=\"noopener noreferrer\">extension_features.cc</a></em> file has various \"features\" relating to disabling Manifest v2, which is where <em>ExtensionManifestV2DeprecationWarning</em> and <em>ExtensionsManifestV3Only</em> were discovered.</p>\n<p> </p>",
+            "author": {
+                "name": "techguy16"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-07-11T11:09:41+12:00",
+            "date_modified": "2025-07-11T11:09:41+12:00"
+        },
+        {
             "id": "https://techguy16.github.io/blog/microsoft-edge-source-code.html",
             "url": "https://techguy16.github.io/blog/microsoft-edge-source-code.html",
             "title": "Microsoft Edge Source Code",
