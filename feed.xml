@@ -3,12 +3,36 @@
     <title>techguy16&#x27;s blog</title>
     <link href="https://techguy16.github.io/blog/feed.xml" rel="self" />
     <link href="https://techguy16.github.io/blog" />
-    <updated>2025-09-23T12:15:01+12:00</updated>
+    <updated>2025-11-05T11:36:32+13:00</updated>
     <author>
         <name>techguy16</name>
     </author>
     <id>https://techguy16.github.io/blog</id>
 
+    <entry>
+        <title>Enderman&#x27;s channel terminated: My opinion</title>
+        <author>
+            <name>techguy16</name>
+        </author>
+        <link href="https://techguy16.github.io/blog/endermans-channel-terminated-my-opinion.html"/>
+        <id>https://techguy16.github.io/blog/endermans-channel-terminated-my-opinion.html</id>
+
+        <updated>2025-11-05T10:20:14+13:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Note: I wrote this before Enderman's channel was reinstated at around 11:30AM NZDT. If you've been in the Wintuber community for a while, you've probably heard by now that Enderman's channel has been terminated by YouTube because they "received multiple third-party claims of copyright infringement",&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p class="msg msg--info"><strong>Note</strong><strong>:</strong> I wrote this before Enderman's channel was reinstated at around 11:30AM NZDT.</p>
+<p>If you've been in the Wintuber community for a while, you've probably heard by now that Enderman's channel has been terminated by YouTube because they "received multiple third-party claims of copyright infringement", along with his other accounts linked to the same Google account.</p>
+<p>Yes, I do mean that Enderman, with all their ~385K subscribers.</p>
+<p>Currently, YouTube is terminating channels which are linked to an account called <strong>棺のスターレイル遊び</strong> with the channel ID <strong>UCJTCXGi0ctZ-b4aNjHurulg</strong>. The channels were linked through an AdSense account as Russian YouTubers were using it to get around sanctions, and due to Google's totalitarian scheme where "if one channel gets terminated, they all do". What they were doing was a violation of the ToS, but Google could've just demonetized them all.</p>
+<p>I think YouTube has gone too far with their AI force-feeding, even allowing it to terminate channels, like in this case. Imagine having Gemini, which is the worst and most innacurate AI chatbot ever, decide. Yes, there have been clear violations of the Terms of Service, but is terminating all the channels required? No. The best solution would've been closing the AdSense account which links the channels, but instead Google decided to terminate them all.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Bring back Manifest V2 extensions to Chrome!</title>
         <author>
@@ -18,7 +42,7 @@
         <id>https://techguy16.github.io/blog/bring-back-manifest-v2-extensions-to-chrome.html</id>
 
         <updated>2025-07-11T11:09:41+12:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     These flags have been marked for deprecation since Chrome 137 and could be removed at any time. This guide may not work at some point in the near future. In Chrome 139 and above, Manifest V2 extensions are "no longer" supported. This is not the case, as&hellip;
                 ]]>
@@ -52,7 +76,7 @@
         <id>https://techguy16.github.io/blog/microsoft-edge-source-code.html</id>
 
         <updated>2025-03-16T11:09:17+13:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Please note that this source only contains headers and cannot be used to compile a working version of Edge. You thought Microsoft Edge was proprietary, didn't you. Well, because of Panasonic (of all things), we have some of the source code for Microsoft Edge. You&hellip;
                 ]]>
